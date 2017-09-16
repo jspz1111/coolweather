@@ -12,8 +12,6 @@ public class Province extends RealmObject {
 
     private String provinceName;
 
-    private int provinceCode;
-
 
     public int getId() {
         return id;
@@ -31,11 +29,5 @@ public class Province extends RealmObject {
         this.provinceName = provinceName;
     }
 
-    public int getProvinceCode() {
-        return provinceCode;
-    }
 
-    public void setProvinceCode(int provinceCode) {
-        this.provinceCode = provinceCode;
-    }
 }

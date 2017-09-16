@@ -12,7 +12,6 @@ public class City extends RealmObject {
 
     private String cityName;
 
-    private int cityCode;
 
     private  int provinceId;
 
@@ -32,13 +31,6 @@ public class City extends RealmObject {
         this.cityName = cityName;
     }
 
-    public int getCityCode() {
-        return cityCode;
-    }
-
-    public void setCityCode(int cityCode) {
-        this.cityCode = cityCode;
-    }
 
 
     public int getProvinceId() {
